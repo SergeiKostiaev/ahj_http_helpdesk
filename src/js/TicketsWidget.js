@@ -141,8 +141,11 @@ export default class TicketsWidget {
   }
 
   editTicket(id) {
-    const request = this.request.editTicket(id, this.modal.name.value,
-      this.modal.description.value);
+    const request = this.request.editTicket(
+      id,
+      this.modal.name.value,
+      this.modal.description.value,
+    );
     request.then(() => {
       this.renderAllTickets();
     });

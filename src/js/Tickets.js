@@ -33,7 +33,7 @@ export default class Tickets {
       + '                 <button type="button" class="delete-btn">X</button>\n'
       + '               </div>\n';
 
-    return ticket;
+    this(ticket);
   }
 
   static formatDate(date) {

@@ -1,6 +1,6 @@
 # Работа с HTTP
 
-## [![Build status](https://ci.appveyor.com/api/projects/status/g1xj47j6bye6nkb4/branch/main?svg=true)](https://ci.appveyor.com/project/SergeiKostiaev/ahj-http-helpdesk/branch/main)
+---
 
 ### HelpDesk: Frontend
 
